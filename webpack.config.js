@@ -55,9 +55,6 @@
             './StoresRouters':'./src/routers/StoresRouters.js',
             './StoresScreen':'./src/pages/storesList/StoresScreen.jsx',
         },
-        remotes: {
-            users: 'users@http://localhost:4201/remoteEntry.js',
-        },
         shared: {
             ...deps,
             react: {

@@ -1,8 +1,6 @@
 import React from 'react'
 import { StoresList } from './components/StoresList'
 
-import UserInfo from 'users/UserInfo';
-
 export const StoresScreen = () => {
   return (
     <div>
@@ -20,7 +18,6 @@ export const StoresScreen = () => {
           </div>
         </div>
       </div>
-        <UserInfo/>
         <hr />
         <StoresList publisher="hospice"/>
     </div>
