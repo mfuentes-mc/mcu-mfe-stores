@@ -1,0 +1,20 @@
+{
+  "stores": [
+    {
+      "id": "1202",
+      "storeName": "Max Store",
+      "address": "Guatemala, Guatemala",
+      "status": "Active",
+      "type": "Store",
+      "imageId": "1"
+    },
+    {
+      "storeName": "La Torre",
+      "address": "Zona 11, Guatemala",
+      "type": "store",
+      "status": "active",
+      "imageId": "1",
+      "id": "Q7yfsQa"
+    }
+  ]
+}
