@@ -7,7 +7,7 @@ export const StoresScreen = () => {
       <div className="container">
         <div className="row">
           <div className="col">
-            <h1>Stores List</h1>
+            <h1>Stores List S3</h1>
           </div>
           <div className="col">
             <a 
