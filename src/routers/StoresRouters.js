@@ -1,5 +1,5 @@
 import React from 'react'
-import {Routes, Route, BrowserRouter} from "react-router-dom";
+import {Routes, Route} from "react-router-dom";
 import {StoresScreen} from '../pages/storesList/StoresScreen';
 import {StoresEdit} from '../pages/storesEdit/StoresEdit';
 import {StoresNew} from '../pages/storesNew/StoresNew';
@@ -8,7 +8,6 @@ import store from "../redux/store/store";
 
 export const StoresRouters = () => {
     return (
-        <BrowserRouter>
             <Provider store={store}>
                 <Routes>
                     <Route path="/" element={<StoresScreen/>}/>
@@ -17,6 +16,5 @@ export const StoresRouters = () => {
                     <Route path="/stores/edit/:id" element={<StoresEdit/>}/>
                 </Routes> 
             </Provider>
-        </BrowserRouter>
     )
 }
