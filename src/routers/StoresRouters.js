@@ -6,7 +6,7 @@ import {StoresNew} from '../pages/storesNew/StoresNew';
 import {Provider} from "react-redux";
 import store from "../redux/store/store";
 
-export const StoresRouters = () => {
+const StoresRouters = () => {
     return (
             <Provider store={store}>
                 <Routes>
@@ -18,3 +18,4 @@ export const StoresRouters = () => {
             </Provider>
     )
 }
+export default StoresRouters;
