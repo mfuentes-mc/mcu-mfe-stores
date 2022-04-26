@@ -10,7 +10,11 @@ export const StoresScreen = () => {
             <h1>Stores List S3</h1>
           </div>
           <div className="col">
-            
+            <a 
+              href="/stores/new"
+              className="btn d-block d-md-inline-block px-md-5 btn-primary"
+            >New Store
+            </a>
           </div>
         </div>
       </div>

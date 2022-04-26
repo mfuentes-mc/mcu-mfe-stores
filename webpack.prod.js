@@ -7,7 +7,7 @@
         mode: "production",
 
     output: {
-        publicPath: "http://stores-mcuniversity.s3-website-us-east-1.amazonaws.com/",
+        publicPath: "http://d3royr732d7ozp.cloudfront.net/",
     },
 
     resolve: {
