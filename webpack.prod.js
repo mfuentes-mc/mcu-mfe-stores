@@ -8,6 +8,8 @@
 
     output: {
         publicPath: "http://d3royr732d7ozp.cloudfront.net/",
+        chunkFilename: "[name].[contenthash].js",
+        filename: "[name].[contenthash].js",
     },
 
     resolve: {
